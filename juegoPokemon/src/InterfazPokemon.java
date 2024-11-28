@@ -20,6 +20,7 @@ public class InterfazPokemon {
      * Método principal que organiza el flujo del juego.
      * Permite al jugador enfrentarse a tres combates consecutivos, subiendo de nivel
      * después de cada victoria, o finalizando el juego al ser derrotado.
+     * @author Francisco Javier San Nicolás
      */
     public void Juego() {
         Pokemon jugador = menuCreacionPokemonJugador();
@@ -71,7 +72,7 @@ public class InterfazPokemon {
     }
 
     /**
-     * Gestiona una partida entre el Pokémon del jugador y el Pokémon rival.
+     * Gestiona una partida entre el Pokémon del jugador y el Pokémon rival de la clase Pokemon {@link Pokemon}.
      *
      * @param pokemonJugador Pokémon del jugador.
      * @param pokemonRival   Pokémon rival.
